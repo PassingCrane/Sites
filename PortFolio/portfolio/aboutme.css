@@ -1,0 +1,219 @@
+body{
+    margin: 0;
+    background-color: rgb(240, 246, 218);
+}
+
+
+h1{
+  font-family: "FontleroyBrown";
+  font-weight: 300;
+  color: rgb(119, 126, 65);
+  text-shadow: 2px 2px 2px rgb(219, 235, 196);
+  font-size: 8vw;
+}
+
+.tops{
+  min-height: 100vh;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(128, 128, 128, 0.6);
+  background-blend-mode: soft-light;
+}
+
+.aboutTop{
+  background-image: url(../imgs/tomcat1582.jpg);
+  position: relative;
+}
+.top{
+  position: absolute;
+  width: auto;
+  top: 21%;
+  right: 20%;
+}
+
+.aboutMyInfo{
+    position: relative;
+    height: 80vh;
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+}
+
+.icon img{
+    position: absolute;
+    left: 18vw;
+    top: 8vh;
+}
+.icon h2{
+    position: absolute;
+    left: 20vw;
+    top: 53%;
+}
+.information{
+    width: 30vw;
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    top: 5vh;
+}
+
+.careerTop{
+    position: relative;
+    background-image: url(../imgs/cat9302346.jpg);
+}
+.career{
+    position: absolute;
+    left: 56%;
+    bottom: 23%;
+    font-weight: 400;
+}
+
+.careerInfo{
+    height: 100vh;
+    position: relative;
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+}
+.continue{
+    position: absolute;
+    left: 33vw;
+    bottom: -7vh;
+}
+
+.favoriteTop{
+    background-image: url(../imgs/TOMcatDSC01893.jpg);
+    position: relative;
+}
+
+.favorite{
+    position: absolute;
+    bottom: 3%;
+    right: 2%;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+.aos-all {
+  width: 90vw;
+  max-width: 98%;
+  margin: 10vh auto 0 auto;
+  padding: 0;
+  margin: 0;
+}
+
+.aos-item {
+  display: inline-block;
+  float: left;
+  width: 33%;
+  height: 35vh;
+  padding: 2vw;
+}
+.aos-item  h3{
+  border-bottom: solid 1px rgb(240, 246, 218);
+}
+
+.aos-item__inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  float: left;
+  background: #7b8d42;
+  line-height: auto;
+  text-align: center;
+  color: #fff;
+}
+
+
+
+@media screen and (max-width: 670px){
+  .aboutMyInfo{
+    position: relative;
+    height: 200vh;
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+  }
+  .icon img{
+    position: absolute;
+    left: 31%;
+    top: 5%;
+  }
+  .icon h2{
+    position: absolute;
+    left: 33%;
+    top: 20%;
+  }
+  .information{
+      width: 80%;
+      position: absolute;
+      top: 50vh;
+      left: 10%;
+  }
+  .careerInfo{
+    height: 210vh;
+    position: relative;
+    width: 99%;
+    padding: 0;
+    margin: 0;
+  }
+  .aos-item {
+    display: inline-block;
+    float: left;
+    height: 66vh;
+    padding: 2vw;
+  }
+  .aos-all {
+    width: 100%;
+    margin: 1.5vh auto 0 auto;
+    padding: 0;
+    margin: 0;
+  }
+  .continue{
+    position: absolute;
+    left: 33vw;
+    bottom: -5vh;
+  }
+}
+@media screen and (min-width: 670px) and (max-width: 1440px){
+  .aboutMyInfo{
+    position: relative;
+    height: 98vh;
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+  }
+    .information{
+        width: 45vw;
+    }
+  .careerInfo{
+      height: 120vh;
+  }
+  .aos-item {
+    display: inline-block;
+    float: left;
+    width: 33%;
+    height: 35vh;
+    padding: 1vw;
+
+  }
+  .aos-all {
+    width: 100%;
+    margin: 1.5vh auto 0 auto;
+    padding: 0;
+    margin: 0;
+  }
+}
+@media screen and (max-width: 800px) {
+  .aos-item {
+    width: 48%;
+  }
+}
+
+
+

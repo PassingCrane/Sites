@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>PassingCrane</title>
+    
+        <link rel="stylesheet" href="index.css">
+        <script src="index.js"></script>
+        <link rel="stylesheet" href="menu.css">
+        
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    </head>
+    <body>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+
+            AOS.init({
+            }); 
+        </script>
+        
+        <header>
+            <nav class="pc-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="aboutme.html">AboutMe</a></li>
+                    <li><a href="myactivity.html">Activity</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="container">
+            <div id="home" class="area home">
+                <div class="box left" data-aos="fade-right">
+                    <h1>Welcome</h1>
+                </div>
+                <div class="box right" data-aos="fade-left">
+                    <h2>PassingCrane</h2>
+                    <p>Web Application and Network Security Engineer apprentice</p>
+                </div>
+            </div>
+
+            <div id="aboutme" class="area aboutme">
+                <div class="box left" data-aos="fade-right">
+                    <h1>Who Am I?</h1>
+                </div>
+                <div class="box right" data-aos="fade-left">
+                    <h2>I'm a Challenger and Seeker</h2>
+                    <p>I'm interested in computer. So I have been trying to understand anything them. Anything.</p>
+                </div>
+                <div class="button_position" data-aos="fade-left">
+                    <a class="button" href="aboutme.html">More</a>
+                </div>
+            </div>
+
+            <div id="activity" class="area activity">
+                <div class="box left" data-aos="fade-right">
+                    <h1>Activity</h1>
+                </div>
+                <div class="box right" data-aos="fade-left">
+                    <h2>I have done a lot.</h2>
+                    <p>Reverse Engineering, Making somethings, LT, and ... ?</p>
+                </div>
+                <div class="button_position" data-aos="fade-left">
+                        <a class="button" href="myactivity.html">More</a>
+                </div>
+            </div>
+            <div id="aboutme" class="area aboutme">
+                <div class="box left" data-aos="fade-right">
+                    <h1>Contacts</h1>
+                </div>
+                <div class="box right" data-aos="fade-left">
+                    <h2>If you want to know about me ...</h2>
+                    <p>Please contact me using the method below. </p>
+                    <p><a href="https://twitter.com/Citron_Turu" style="color: gainsboro;">Twitter</a></p>
+                </div>
+            </div>
+            
+        </div>
+        <div id="pagination" class="pagination">
+                <a id="pagination1" href="#home"></a>
+                <a id="pagination2" href="#activity"></a>
+                <a id="pagination3" href="#aboutme"></a>
+            </div>
+    </body>
+</html>
