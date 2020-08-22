@@ -1,5 +1,5 @@
 body {
-  margin: 0%;  
+  margin: 0;
   font-family: 'FontleroyBrown';
   font-weight: 300;
   text-align: center;
@@ -30,7 +30,7 @@ body {
 
 /*section相当*/
 .area{
-    width: 100vw;
+    width: 95vw;
     height: 100vh;
     position: relative;
     scroll-snap-align: start;
@@ -42,8 +42,6 @@ body {
     height: auto;
     top: 40%;
     vertical-align: auto;
-    background-size: 100% 100%;
-    border-radius: 92.3% 5.769% 38.46% 5.769% / 5.769% 76.92% 5.769% 71.15%;
 }
 .right{
     text-justify: auto;
@@ -51,8 +49,6 @@ body {
     right: 3%;
     width: 45%;
     height: auto;
-    background-size: 100% 100%;
-    border-radius: 5.769% 76.92% 5.769% 71.15% / 92.3% 5.769% 38.46% 5.769%;
 
 }
 
@@ -132,9 +128,9 @@ a{
     font-size:1.125vw;
 }
 
-.contacts ul{
+/* .contacts ul{
   list-style: url(img/twitter) inside;
-}
+} */
 
 @media screen and (min-width:480px){
   h1{
@@ -149,7 +145,7 @@ a{
   a{
     font-size: 3vw;
   }
-  .contacts a{
+  /* .button a{
     font-size: 4vw;
-  }
+  } */
 }
