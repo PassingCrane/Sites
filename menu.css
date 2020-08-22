@@ -24,3 +24,62 @@ li {
   font-family: 'FontleroyBrown';
   font-size: 4vh;
 }
+.pc-nav a:hover{
+   color: rgb(102, 108, 103);
+   text-shadow: gainsboro;
+}
+/* 
+.loading {
+  width: 30%;
+  border-bottom: 5px solid black;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10%;
+  perspective: 1000px;
+}
+
+.loading div {
+  font-size: 3vw;
+  font-family: sans-serif;
+  transform-style: preserve-3d;
+}
+.loading div:nth-child(1) {
+  animation: turn 3s infinite;
+  animation-delay: 200ms;
+}
+.loading div:nth-child(2) {
+  animation: turn 3s infinite;
+  animation-delay: 400ms;
+}
+.loading div:nth-child(3) {
+  animation: turn 3s infinite;
+  animation-delay: 600ms;
+}
+.loading div:nth-child(4) {
+  animation: turn 3s infinite;
+  animation-delay: 800ms;
+}
+.loading div:nth-child(5) {
+  animation: turn 3s infinite;
+  animation-delay: 1000ms;
+}
+.loading div:nth-child(6) {
+  animation: turn 3s infinite;
+  animation-delay: 1200ms;
+}
+.loading div:nth-child(7) {
+  animation: turn 3s infinite;
+  animation-delay: 1400ms;
+}
+
+@keyframes turn {
+  0% {
+    transform: rotateX(0deg);
+    transform-origin: 0 4vw;
+  }
+  100% {
+    transform: rotateX(360deg);
+    transform-origin: 0 4vw;
+  }
+} */
