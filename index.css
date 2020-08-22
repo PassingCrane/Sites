@@ -124,7 +124,7 @@ p {
   font-size: 3vw;
   margin: 0;
   }
-a{
+a.button{
     font-size:1.125vw;
 }
 
@@ -142,7 +142,7 @@ a{
   p {
   font-size: 4vw;
   }
-  a{
+  a.button{
     font-size: 3vw;
   }
   /* .button a{
