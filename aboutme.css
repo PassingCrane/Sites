@@ -22,7 +22,7 @@ h1{
 }
 
 .aboutTop{
-  background-image: url(../imgs/tomcat1582.jpg);
+  background-image: url(imgs/tomcat1582.jpg);
   position: relative;
 }
 .top{
@@ -60,7 +60,7 @@ h1{
 
 .careerTop{
     position: relative;
-    background-image: url(../imgs/cat9302346.jpg);
+    background-image: url(imgs/cat9302346.jpg);
 }
 .career{
     position: absolute;
@@ -83,7 +83,7 @@ h1{
 }
 
 .favoriteTop{
-    background-image: url(../imgs/TOMcatDSC01893.jpg);
+    background-image: url(imgs/TOMcatDSC01893.jpg);
     position: relative;
 }
 

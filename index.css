@@ -1,10 +1,3 @@
-html{
-    width: 100%;
-    height: 100%;
-
-}
-
-
 body {
   margin: 0%;  
   font-family: 'FontleroyBrown';
@@ -13,7 +6,7 @@ body {
   color: gainsboro;
   text-shadow: 2px 2px 2px rgb(102, 108, 103);
   background-attachment: fixed;
-  background-image: url(../imgs/034ELLY18420.jpg);
+  background-image: url(imgs/034ELLY18420.jpg);
   background-size: cover;
   background-color:rgba(128, 128, 128,0.60);
   background-blend-mode: soft-light;
@@ -21,7 +14,6 @@ body {
 
 /*fullPageScroll相当 */
 .container{
-    height: 300vh;
     scroll-snap-type: y mandatory;
     overflow-y: auto;
     -webkit-overflow-scrolling: touch;
@@ -38,8 +30,8 @@ body {
 
 /*section相当*/
 .area{
-    width: 100%;
-    height: 25%;
+    width: 100vw;
+    height: 100vh;
     position: relative;
     scroll-snap-align: start;
 }
@@ -121,6 +113,8 @@ body {
   transform: scale(1.8);
 }
 
+
+
 h1{
   font-size: 20vw;
   margin: 5%;
@@ -159,4 +153,3 @@ a{
     font-size: 4vw;
   }
 }
-
