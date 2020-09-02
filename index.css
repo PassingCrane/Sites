@@ -108,7 +108,7 @@ h1{
   }
   .right{
     text-justify: auto;
-    top: 40%;
+    top: 35%;
     width: 90%;
     left:5%;
     height: auto;
@@ -130,7 +130,7 @@ h1{
 
   h2{
     font-size: 5vw;
-    margin: 1%;
+    margin: 0;
     }
   p {
     font-size: 4.5vw;
